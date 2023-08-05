@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8762389951130399260}
   - component: {fileID: -8320046569426306495}
   - component: {fileID: 9205572425944145597}
+  - component: {fileID: 8080556169970194417}
   m_Layer: 0
   m_Name: Block
   m_TagString: Target
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d7b2d415c35379a4fab492ec4b91c9ea, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -114,3 +115,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &8080556169970194417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8762389951130399250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e0c10790de07245948cc47c8704dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 21300000, guid: d7b2d415c35379a4fab492ec4b91c9ea, type: 3}
+  - {fileID: 21300000, guid: 26bf398354ed6d74d8aa02fad06a754f, type: 3}

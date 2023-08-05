@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    private void Start()
+    {
+        GetComponent<SpriteRenderer>().flipX = Random.value > 0.5f;
+    }
     private void Update()
     {
         if (GameManager.Single.GameActive)
